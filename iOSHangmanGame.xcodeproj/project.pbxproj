@@ -12,6 +12,8 @@
 		5B16C3AC1DC3049D00E626DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B16C3AA1DC3049D00E626DF /* Main.storyboard */; };
 		5B16C3AE1DC3049D00E626DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B16C3AD1DC3049D00E626DF /* Assets.xcassets */; };
 		5B16C3B11DC3049D00E626DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B16C3AF1DC3049D00E626DF /* LaunchScreen.storyboard */; };
+		5BF38E781DC47AF1002A9F2E /* words.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5BF38E771DC47AF1002A9F2E /* words.txt */; };
+		5BF38E7A1DC485D0002A9F2E /* hints.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5BF38E791DC485D0002A9F2E /* hints.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		5B16C3AD1DC3049D00E626DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B16C3B01DC3049D00E626DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B16C3B21DC3049D00E626DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BF38E771DC47AF1002A9F2E /* words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = words.txt; sourceTree = "<group>"; };
+		5BF38E791DC485D0002A9F2E /* hints.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hints.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		5B16C3A51DC3049D00E626DF /* iOSHangmanGame */ = {
 			isa = PBXGroup;
 			children = (
+				5BF38E791DC485D0002A9F2E /* hints.txt */,
+				5BF38E771DC47AF1002A9F2E /* words.txt */,
 				5B16C3A61DC3049D00E626DF /* AppDelegate.swift */,
 				5B16C3A81DC3049D00E626DF /* ViewController.swift */,
 				5B16C3AA1DC3049D00E626DF /* Main.storyboard */,
@@ -124,7 +130,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B16C3B11DC3049D00E626DF /* LaunchScreen.storyboard in Resources */,
+				5BF38E7A1DC485D0002A9F2E /* hints.txt in Resources */,
 				5B16C3AE1DC3049D00E626DF /* Assets.xcassets in Resources */,
+				5BF38E781DC47AF1002A9F2E /* words.txt in Resources */,
 				5B16C3AC1DC3049D00E626DF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +307,7 @@
 				5B16C3B71DC3049D00E626DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
