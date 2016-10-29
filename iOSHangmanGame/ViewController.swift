@@ -1,11 +1,5 @@
 import UIKit
 
-extension UserDefaults {
-    func setString(string:String, forKey:String) {
-        set(string, forKey: forKey)
-    }
-}
-
 class ViewController: UIViewController {
     
     @IBOutlet var hangmanword: UILabel!
@@ -87,7 +81,6 @@ class ViewController: UIViewController {
                 hmWordArray[index] = "*"
                 charLeft -= 1
                 matched = true;
-                
             }
         }
         updateLife()
